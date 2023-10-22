@@ -25,6 +25,6 @@ echo $resultadoBrasileirao; */
 
 //operadores de comparação
 
-// == (significa que o militar que está sendo avaliado é igual a outra coisa)
+// (==) estou verificando se uma variável é igual a outra
 
-//de lima preocupado para saber do filho dela que está punido
+// (===) estou verificando se o valor de uma variável e o tipo dela são iguais uma a outra
