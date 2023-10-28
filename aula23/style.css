@@ -29,3 +29,8 @@ body {
     width: 120px;
     cursor: pointer;
 }
+
+.error {
+    color: red;
+    font-weight: bold;
+}
