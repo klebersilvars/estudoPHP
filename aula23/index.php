@@ -24,14 +24,12 @@
 
     <h1>Dados do formulário enviado abaixo</h1>
 
-
-
     <?php
-
-
 
     if (isset($_POST['enviar'])) { // isset (verifico se tem algo dentro da minha variavel post)
 
+
+        /*na função empty eu verifico se tem algo dentro da minha variável */
         if (empty($_POST['name']) || strlen($_POST['name']) <= 3) /*nessa função do strlen, estou verificando se minha variável tem mais de 3 caracteres*/ {
             echo '<p class="error">Preencha o campo nome</p>';
         } elseif (empty($_POST['email']) || ( !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))) { /*nessa função filter var do email, estou verificando se meu e-mail é valido ou não */
